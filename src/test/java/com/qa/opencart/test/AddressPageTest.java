@@ -14,6 +14,7 @@ public class AddressPageTest extends BaseTest {
 		addressPage.successMessageText();
 		String message = addressPage.successMessageText();
 		Assert.assertEquals(message.contains(" Your address has been successfully "), true);
+		System.out.println("Testing completed");
 
 	}
 
