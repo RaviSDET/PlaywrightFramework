@@ -1,6 +1,6 @@
 com/qa/opencart/factory/PlaywrightFactory.class
 com/qa/opencart/pages/HomePage.class
+com/qa/opencart/StepDefn/LoginPageStepDefns.class
 com/qa/opencart/pages/LoginPage.class
 com/qa/opencart/pages/RegisterUser.class
 com/qa/opencart/pages/AddressPage.class
-com/qa/opencart/StepDefn/LoginPageStepDefns.class

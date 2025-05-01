@@ -30,7 +30,7 @@ public class PlaywrightFactory {
 
 		switch (browserName.toLowerCase()) {
 		case "chromium":
-			browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(true));
+			browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
 			browserContext = browser.newContext();
 			page = browserContext.newPage();
 			// Picking the url from the properties file
